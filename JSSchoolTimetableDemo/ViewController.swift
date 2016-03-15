@@ -17,9 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         myTableView.delegate = self;
         myTableView.dataSource = self;
-        
-        let contentList = CourseInfo.MR_findAll()
-        print(contentList)
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -72,7 +72,7 @@ class JSEditSchoolTimeViewController: UIViewController {
             editCourseContentVC.courseTableInfo = self.courseTable
             editCourseContentVC.save = {(courseInfo) -> Void in
                 self.dataArray!.addObject(courseInfo)
-                print("保存的实体\(courseInfo.courseName)")
+//                print("保存的实体\(courseInfo.courseName)")
                 self.myCollectionView.reloadData()
             }
         }
