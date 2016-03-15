@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D02BE4E1C8E75F400CEC80D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D02BE4C1C8E75F400CEC80D /* Model.xcdatamodeld */; };
+		1D02BE501C8E805200CEC80D /* JSEditClassTabelNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02BE4F1C8E805200CEC80D /* JSEditClassTabelNameViewController.swift */; };
+		1D083D771C8D2BAB00FA7825 /* JSEditSchoolTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D083D761C8D2BAB00FA7825 /* JSEditSchoolTimeViewController.swift */; };
+		1D083D7E1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D083D7C1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.swift */; };
+		1D083D7F1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D083D7D1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.xib */; };
+		1D083D811C8D800A00FA7825 /* JSEditClassContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D083D801C8D800A00FA7825 /* JSEditClassContentViewController.swift */; };
+		1D0D1AF01C7C39AC0014A008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D1AEF1C7C39AC0014A008 /* AppDelegate.swift */; };
+		1D0D1AF21C7C39AC0014A008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0D1AF11C7C39AC0014A008 /* ViewController.swift */; };
+		1D0D1AF51C7C39AC0014A008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D1AF31C7C39AC0014A008 /* Main.storyboard */; };
+		1D0D1AF71C7C39AC0014A008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D1AF61C7C39AC0014A008 /* Assets.xcassets */; };
+		1D0D1AFA1C7C39AC0014A008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0D1AF81C7C39AC0014A008 /* LaunchScreen.storyboard */; };
+		1D6BEDC11C92A65900E5117F /* JSTableTitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6BEDBF1C92A65900E5117F /* JSTableTitleCollectionViewCell.swift */; };
+		1D6BEDC21C92A65900E5117F /* JSTableTitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6BEDC01C92A65900E5117F /* JSTableTitleCollectionViewCell.xib */; };
+		1D78B8A41C97AFDD0042930A /* CourseTableInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B8A01C97AFDD0042930A /* CourseTableInfo.swift */; };
+		1D78B8A51C97AFDD0042930A /* CourseTableInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B8A11C97AFDD0042930A /* CourseTableInfo+CoreDataProperties.swift */; };
+		1D78B8A61C97AFDD0042930A /* CourseInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B8A21C97AFDD0042930A /* CourseInfo+CoreDataProperties.swift */; };
+		1D78B8A71C97AFDD0042930A /* CourseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D78B8A31C97AFDD0042930A /* CourseInfo.swift */; };
+		93351662A2D56F725F39831D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6C1D567176E07A343447E7 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D02BE4D1C8E75F400CEC80D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1D02BE4F1C8E805200CEC80D /* JSEditClassTabelNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEditClassTabelNameViewController.swift; sourceTree = "<group>"; };
+		1D083D761C8D2BAB00FA7825 /* JSEditSchoolTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEditSchoolTimeViewController.swift; sourceTree = "<group>"; };
+		1D083D7C1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSCourseContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D083D7D1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCourseContentCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D083D801C8D800A00FA7825 /* JSEditClassContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEditClassContentViewController.swift; sourceTree = "<group>"; };
+		1D0D1AEC1C7C39AC0014A008 /* JSSchoolTimetableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSSchoolTimetableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0D1AEF1C7C39AC0014A008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D0D1AF11C7C39AC0014A008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D0D1AF41C7C39AC0014A008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D0D1AF61C7C39AC0014A008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D0D1AF91C7C39AC0014A008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D0D1AFB1C7C39AC0014A008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D1347D51C7D5BBB00522748 /* JSSchoolTimetableDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSSchoolTimetableDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		1D6BEDBF1C92A65900E5117F /* JSTableTitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSTableTitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D6BEDC01C92A65900E5117F /* JSTableTitleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSTableTitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D78B8A01C97AFDD0042930A /* CourseTableInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableInfo.swift; sourceTree = "<group>"; };
+		1D78B8A11C97AFDD0042930A /* CourseTableInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CourseTableInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D78B8A21C97AFDD0042930A /* CourseInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CourseInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D78B8A31C97AFDD0042930A /* CourseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseInfo.swift; sourceTree = "<group>"; };
+		4E6C1D567176E07A343447E7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CA16AB62498ACA042D5A939 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F5E9399A38D376FCF2FE92F8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0D1AE91C7C39AC0014A008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93351662A2D56F725F39831D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0D1AE31C7C39AC0014A008 = {
+			isa = PBXGroup;
+			children = (
+				1D0D1AEE1C7C39AC0014A008 /* JSSchoolTimetableDemo */,
+				1D0D1AED1C7C39AC0014A008 /* Products */,
+				5641BAC474165B5B8AF5C06A /* Pods */,
+				DC09680309C1260A5E2F43FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0D1AED1C7C39AC0014A008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0D1AEC1C7C39AC0014A008 /* JSSchoolTimetableDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0D1AEE1C7C39AC0014A008 /* JSSchoolTimetableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1D78B8A01C97AFDD0042930A /* CourseTableInfo.swift */,
+				1D78B8A11C97AFDD0042930A /* CourseTableInfo+CoreDataProperties.swift */,
+				1D78B8A21C97AFDD0042930A /* CourseInfo+CoreDataProperties.swift */,
+				1D78B8A31C97AFDD0042930A /* CourseInfo.swift */,
+				1D0D1AEF1C7C39AC0014A008 /* AppDelegate.swift */,
+				1D0D1AF11C7C39AC0014A008 /* ViewController.swift */,
+				1D0D1AF31C7C39AC0014A008 /* Main.storyboard */,
+				1D0D1AF61C7C39AC0014A008 /* Assets.xcassets */,
+				1D0D1AF81C7C39AC0014A008 /* LaunchScreen.storyboard */,
+				1D0D1AFB1C7C39AC0014A008 /* Info.plist */,
+				1D1347D51C7D5BBB00522748 /* JSSchoolTimetableDemo-Bridging-Header.h */,
+				1D083D761C8D2BAB00FA7825 /* JSEditSchoolTimeViewController.swift */,
+				1D083D7C1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.swift */,
+				1D083D7D1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.xib */,
+				1D083D801C8D800A00FA7825 /* JSEditClassContentViewController.swift */,
+				1D02BE4C1C8E75F400CEC80D /* Model.xcdatamodeld */,
+				1D02BE4F1C8E805200CEC80D /* JSEditClassTabelNameViewController.swift */,
+				1D6BEDBF1C92A65900E5117F /* JSTableTitleCollectionViewCell.swift */,
+				1D6BEDC01C92A65900E5117F /* JSTableTitleCollectionViewCell.xib */,
+			);
+			path = JSSchoolTimetableDemo;
+			sourceTree = "<group>";
+		};
+		5641BAC474165B5B8AF5C06A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9399A38D376FCF2FE92F8 /* Pods.debug.xcconfig */,
+				7CA16AB62498ACA042D5A939 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC09680309C1260A5E2F43FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C1D567176E07A343447E7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0D1AEB1C7C39AC0014A008 /* JSSchoolTimetableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0D1AFE1C7C39AC0014A008 /* Build configuration list for PBXNativeTarget "JSSchoolTimetableDemo" */;
+			buildPhases = (
+				F2CC1EBFB03A1C142292C695 /* Check Pods Manifest.lock */,
+				1D0D1AE81C7C39AC0014A008 /* Sources */,
+				1D0D1AE91C7C39AC0014A008 /* Frameworks */,
+				1D0D1AEA1C7C39AC0014A008 /* Resources */,
+				DBB433F8757F01D3DD91BA22 /* Embed Pods Frameworks */,
+				9ABC913FCDDA2E940F6CE420 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSchoolTimetableDemo;
+			productName = JSSchoolTimetableDemo;
+			productReference = 1D0D1AEC1C7C39AC0014A008 /* JSSchoolTimetableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0D1AE41C7C39AC0014A008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jhon.sun;
+				TargetAttributes = {
+					1D0D1AEB1C7C39AC0014A008 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 1D0D1AE71C7C39AC0014A008 /* Build configuration list for PBXProject "JSSchoolTimetableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D0D1AE31C7C39AC0014A008;
+			productRefGroup = 1D0D1AED1C7C39AC0014A008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0D1AEB1C7C39AC0014A008 /* JSSchoolTimetableDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0D1AEA1C7C39AC0014A008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0D1AFA1C7C39AC0014A008 /* LaunchScreen.storyboard in Resources */,
+				1D0D1AF71C7C39AC0014A008 /* Assets.xcassets in Resources */,
+				1D083D7F1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.xib in Resources */,
+				1D0D1AF51C7C39AC0014A008 /* Main.storyboard in Resources */,
+				1D6BEDC21C92A65900E5117F /* JSTableTitleCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9ABC913FCDDA2E940F6CE420 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBB433F8757F01D3DD91BA22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2CC1EBFB03A1C142292C695 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0D1AE81C7C39AC0014A008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D083D811C8D800A00FA7825 /* JSEditClassContentViewController.swift in Sources */,
+				1D083D771C8D2BAB00FA7825 /* JSEditSchoolTimeViewController.swift in Sources */,
+				1D0D1AF21C7C39AC0014A008 /* ViewController.swift in Sources */,
+				1D083D7E1C8D53AA00FA7825 /* JSCourseContentCollectionViewCell.swift in Sources */,
+				1D78B8A71C97AFDD0042930A /* CourseInfo.swift in Sources */,
+				1D02BE501C8E805200CEC80D /* JSEditClassTabelNameViewController.swift in Sources */,
+				1D78B8A51C97AFDD0042930A /* CourseTableInfo+CoreDataProperties.swift in Sources */,
+				1D0D1AF01C7C39AC0014A008 /* AppDelegate.swift in Sources */,
+				1D6BEDC11C92A65900E5117F /* JSTableTitleCollectionViewCell.swift in Sources */,
+				1D02BE4E1C8E75F400CEC80D /* Model.xcdatamodeld in Sources */,
+				1D78B8A61C97AFDD0042930A /* CourseInfo+CoreDataProperties.swift in Sources */,
+				1D78B8A41C97AFDD0042930A /* CourseTableInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D0D1AF31C7C39AC0014A008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0D1AF41C7C39AC0014A008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D0D1AF81C7C39AC0014A008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0D1AF91C7C39AC0014A008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0D1AFC1C7C39AC0014A008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D0D1AFD1C7C39AC0014A008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0D1AFF1C7C39AC0014A008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E9399A38D376FCF2FE92F8 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = JSSchoolTimetableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.smartac.JSSchoolTimetableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSSchoolTimetableDemo/JSSchoolTimetableDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D0D1B001C7C39AC0014A008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA16AB62498ACA042D5A939 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = JSSchoolTimetableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.smartac.JSSchoolTimetableDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JSSchoolTimetableDemo/JSSchoolTimetableDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0D1AE71C7C39AC0014A008 /* Build configuration list for PBXProject "JSSchoolTimetableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0D1AFC1C7C39AC0014A008 /* Debug */,
+				1D0D1AFD1C7C39AC0014A008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0D1AFE1C7C39AC0014A008 /* Build configuration list for PBXNativeTarget "JSSchoolTimetableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0D1AFF1C7C39AC0014A008 /* Debug */,
+				1D0D1B001C7C39AC0014A008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D02BE4C1C8E75F400CEC80D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D02BE4D1C8E75F400CEC80D /* Model.xcdatamodel */,
+			);
+			currentVersion = 1D02BE4D1C8E75F400CEC80D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D0D1AE41C7C39AC0014A008 /* Project object */;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Xcode 7.0">
+    <entity name="CourseInfo" representedClassName=".CourseInfo" syncable="YES">
+        <attribute name="courseAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="courseDay" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="courseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="coursePeriod" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="courseTeacher" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="course_table" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CourseTableInfo" inverseName="table_course" inverseEntity="CourseTableInfo" syncable="YES"/>
+    </entity>
+    <entity name="CourseTableInfo" representedClassName=".CourseTableInfo" syncable="YES">
+        <attribute name="courseTableName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="table_course" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CourseInfo" inverseName="course_table" inverseEntity="CourseInfo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CourseInfo" positionX="279" positionY="-114" width="128" height="135"/>
+        <element name="CourseTableInfo" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>
